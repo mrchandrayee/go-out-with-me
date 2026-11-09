@@ -49,6 +49,12 @@ go-out-with-me/
 
 ---
 
+## 🏷️ Topics
+
+`proposal` `svg` `css-animation` `javascript` `html-css-js` `frontend` `interactive` `valentine`
+
+---
+
 ## 👨‍💻 Author
 
 **mrchandrayee** · [GitHub](https://github.com/mrchandrayee) · [Profile](https://github.com/mrchandrayee/mrchandrayee)
