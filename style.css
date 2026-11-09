@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Pacifico&family=Nunito:wght@400;600;700;800;900&display=swap');
+:root{--pink:#ff4f79;--ink:#211a24;--paper:#ffe6e4;--code:#100d19}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:linear-gradient(120deg,#ffe8e5,#ffddd9 55%,#ffebe5);font-family:Nunito,system-ui,sans-serif;color:var(--ink)}
+.page{width:min(1100px,96vw);margin:0 auto;padding:28px 12px 30px}
+.invitation{height:620px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:visible}
+.art-wrap{width:260px;height:190px;position:relative;margin-bottom:10px;animation:bob 2.8s ease-in-out infinite}
+.couple-art,.single-bunny{width:100%;height:100%;overflow:visible;filter:drop-shadow(0 5px 2px #7c4a4a12)}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-7px) rotate(1deg)}}
+h1,.date-message{font:22px Pacifico,cursive;color:#ff4c7a;text-align:center;margin:8px 0 25px;font-weight:400}
+.actions{display:flex;align-items:center;justify-content:center;gap:16px;position:relative;min-height:46px;width:100%}
+button{font-family:Nunito,sans-serif;cursor:pointer;border:0}
+.yes-btn,.no-btn{font-size:13px;font-weight:900;padding:10px 20px;border-radius:30px;min-width:58px;box-shadow:0 5px 12px #e55b7540;transition:transform .2s,box-shadow .2s,background .2s}
+.yes-btn{background:var(--pink);color:#fff}.yes-btn:hover{transform:scale(1.1);box-shadow:0 7px 16px #e55b7560}
+.no-btn{background:#e7e5e5;color:#666;box-shadow:0 4px 10px #7772}
+.no-btn.is-loose{position:fixed;left:0;top:0;z-index:20;transition:left .25s ease,top .25s ease,transform .25s}
+.yay{font:900 30px Nunito,sans-serif;color:#f14b68;letter-spacing:1px;transform:rotate(-9deg);margin:0 0 4px;text-shadow:1px 2px #fff}
+.date-message{margin:10px 0 0;font-size:23px}
+.hidden{display:none!important}
+.confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.confetti span{position:absolute;top:-20px;animation:fall 3s ease-in forwards;font-size:17px}
+@keyframes fall{to{transform:translateY(680px) rotate(600deg);opacity:0}}
+.source-preview{display:grid;grid-template-columns:1fr 1fr;gap:8px;height:285px}
+.code-card{background:var(--code);border:1px solid #30293a;border-radius:8px;padding:13px 18px;overflow:hidden;box-shadow:0 8px 24px #35233a12}
+.code-card h2{font:700 12px 'DM Mono',monospace;color:#f17ba3;margin:0 0 10px}
+.code-card:nth-child(2) h2{color:#86b8ff}
+pre{margin:0;white-space:pre-wrap;color:#e7dce9;font:11px/1.65 'DM Mono',monospace}
+code{font:inherit}
+@media(max-width:650px){.page{padding:12px 8px}.invitation{height:560px}.source-preview{grid-template-columns:1fr;height:auto}.code-card{min-height:220px}h1,.date-message{font-size:19px}.art-wrap{transform:scale(.9)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}

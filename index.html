@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffe4e7">
+
+  <!-- Primary SEO -->
+  <title>Go Out With Me? — Cute Interactive Proposal | mrchandrayee</title>
+  <meta name="description" content="A playful interactive date proposal with a cute bunny & bear illustration, confetti, and a runaway NO button. Pure HTML, CSS & JavaScript.">
+  <meta name="keywords" content="go out with me, interactive proposal, cute animation, CSS animation, JavaScript, web design, mrchandrayee, valentine">
+  <meta name="author" content="mrchandrayee">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mrchandrayee.github.io/go-out-with-me/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mrchandrayee.github.io/go-out-with-me/">
+  <meta property="og:title" content="Go Out With Me? — Cute Interactive Proposal | mrchandrayee">
+  <meta property="og:description" content="A playful interactive date proposal with cute bunny & bear art, confetti, and a NO button that runs away!">
+  <meta property="og:image" content="https://mrchandrayee.github.io/go-out-with-me/preview.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://mrchandrayee.github.io/go-out-with-me/">
+  <meta name="twitter:title" content="Go Out With Me? — Cute Interactive Proposal | mrchandrayee">
+  <meta name="twitter:description" content="A playful interactive date proposal with cute bunny & bear art, confetti, and a runaway NO button!">
+  <meta name="twitter:image" content="https://mrchandrayee.github.io/go-out-with-me/preview.png">
+  <meta name="twitter:creator" content="@mrchandrayee">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Go Out With Me? — Cute Interactive Proposal",
+    "description": "A playful interactive date proposal with cute bunny & bear illustration, confetti, and a runaway NO button. Pure HTML, CSS & JavaScript.",
+    "url": "https://mrchandrayee.github.io/go-out-with-me/",
+    "author": { "@type": "Person", "name": "mrchandrayee", "url": "https://github.com/mrchandrayee" },
+    "applicationCategory": "WebApplication",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="invitation" aria-live="polite">
+      <div class="art-wrap" id="artWrap">
+        <svg class="couple-art" id="coupleArt" viewBox="0 0 260 190" role="img" aria-label="Two cute characters hugging">
+          <!-- little hearts -->
+          <path d="M102 24 C92 12 77 27 102 44 C127 27 112 12 102 24Z" fill="#ff6f91"/>
+          <path d="M145 35 C139 27 129 38 145 49 C161 38 151 27 145 35Z" fill="#ff8aa2"/>
+          <!-- white bunny -->
+          <g stroke="#3b3437" stroke-width="2.4" stroke-linejoin="round">
+            <path d="M66 70 C42 34 48 5 64 13 C79 19 80 47 82 66Z" fill="#fffdf8"/>
+            <path d="M82 65 C76 27 90 2 103 13 C114 24 99 55 96 72Z" fill="#fffdf8"/>
+            <path d="M60 22 C61 40 67 51 74 62" fill="none" stroke="#f4a9b9"/>
+            <path d="M94 22 C92 39 89 53 86 64" fill="none" stroke="#f4a9b9"/>
+            <ellipse cx="81" cy="111" rx="40" ry="45" fill="#fffdf8"/>
+            <circle cx="82" cy="83" r="32" fill="#fffdf8"/>
+            <ellipse cx="69" cy="84" rx="3.5" ry="5" fill="#28242a" stroke="none"/>
+            <ellipse cx="93" cy="84" rx="3.5" ry="5" fill="#28242a" stroke="none"/>
+            <path d="M78 94 Q82 99 86 94" fill="none"/>
+            <ellipse cx="60" cy="95" rx="8" ry="4" fill="#f7a7b7" stroke="none"/>
+            <ellipse cx="103" cy="95" rx="8" ry="4" fill="#f7a7b7" stroke="none"/>
+            <path d="M51 116 Q37 124 47 137 Q57 143 68 130" fill="#fffdf8"/>
+            <path d="M106 113 Q124 111 132 124 Q132 138 115 137" fill="#fffdf8"/>
+            <ellipse cx="66" cy="151" rx="17" ry="8" fill="#fffdf8"/>
+            <ellipse cx="100" cy="151" rx="17" ry="8" fill="#fffdf8"/>
+          </g>
+          <!-- caramel bear -->
+          <g stroke="#65452f" stroke-width="2.4" stroke-linejoin="round">
+            <circle cx="158" cy="67" r="17" fill="#c98d50"/>
+            <circle cx="202" cy="67" r="17" fill="#c98d50"/>
+            <ellipse cx="180" cy="105" rx="43" ry="46" fill="#d8a064"/>
+            <circle cx="180" cy="79" r="32" fill="#d8a064"/>
+            <ellipse cx="180" cy="91" rx="18" ry="13" fill="#f6d6ae"/>
+            <circle cx="169" cy="78" r="3.5" fill="#332720" stroke="none"/>
+            <circle cx="191" cy="78" r="3.5" fill="#332720" stroke="none"/>
+            <ellipse cx="180" cy="89" rx="4" ry="3" fill="#65452f" stroke="none"/>
+            <path d="M174 96 Q180 101 186 96" fill="none"/>
+            <path d="M145 116 Q130 112 122 125 Q121 139 139 139" fill="#d8a064"/>
+            <path d="M211 114 Q227 120 218 137 Q207 143 196 130" fill="#d8a064"/>
+            <ellipse cx="164" cy="150" rx="17" ry="8" fill="#d8a064"/>
+            <ellipse cx="198" cy="150" rx="17" ry="8" fill="#d8a064"/>
+          </g>
+          <path d="M117 53 Q126 45 135 53" stroke="#ff7997" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </svg>
+        <svg class="single-bunny hidden" id="singleBunny" viewBox="0 0 160 160" role="img" aria-label="Happy bunny">
+          <g stroke="#3b3437" stroke-width="2.4" stroke-linejoin="round">
+            <path d="M57 56 C28 10 43 2 56 12 C69 24 69 45 69 61Z" fill="#fffdf8"/>
+            <path d="M79 58 C75 17 92 1 103 16 C111 30 93 52 92 65Z" fill="#fffdf8"/>
+            <path d="M52 19 Q56 42 64 54 M98 22 Q91 43 87 56" stroke="#f4a9b9" fill="none"/>
+            <ellipse cx="77" cy="99" rx="39" ry="43" fill="#fffdf8"/>
+            <circle cx="77" cy="72" r="31" fill="#fffdf8"/>
+            <path d="M61 73 Q67 65 72 73 M83 73 Q89 65 94 73" fill="none"/>
+            <path d="M72 84 Q77 91 83 84" fill="none"/>
+            <ellipse cx="54" cy="85" rx="8" ry="4" fill="#f7a7b7" stroke="none"/>
+            <ellipse cx="100" cy="85" rx="8" ry="4" fill="#f7a7b7" stroke="none"/>
+            <path d="M51 108 Q34 119 44 132 Q57 137 65 122 M102 108 Q119 119 109 132 Q96 137 88 122" fill="#fffdf8"/>
+          </g>
+        </svg>
+      </div>
+      <div class="yay hidden" id="yay">YAAS!</div>
+      <h1 id="headline">Will you go out with me?</h1>
+      <div class="actions" id="actions">
+        <button class="yes-btn" id="yesBtn">Yes!</button>
+        <button class="no-btn" id="noBtn">No</button>
+      </div>
+      <p class="date-message hidden" id="dateMessage">Yay! It’s a date! 💖</p>
+      <div class="confetti" id="confetti" aria-hidden="true"></div>
+    </section>
+
+    <section class="source-preview" aria-label="Code preview">
+      <article class="code-card"><h2>HTML</h2><pre><code>&lt;!-- the question --&gt;
+&lt;div id="question"&gt;
+  &lt;img src="ask.gif"&gt;
+  &lt;h1&gt;Will you go
+    out with me?&lt;/h1&gt;
+  &lt;button id="yesBtn"&gt;
+    Yes!&lt;/button&gt;
+  &lt;button id="noBtn"&gt;
+    No&lt;/button&gt;
+&lt;/div&gt;</code></pre></article>
+      <article class="code-card"><h2>CSS</h2><pre><code>/* the runaway No */
+.no-btn.is-loose {
+  position: fixed;
+  left: 0; top: 0;
+  transition: transform .25s;
+}
+.yes-btn:hover {
+  transform: scale(1.1);
+}</code></pre></article>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
